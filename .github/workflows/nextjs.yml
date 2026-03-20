@@ -80,7 +80,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: path: frontend-demo/out
+          path:  frontend-demo/out
 
   deploy:
     environment:
